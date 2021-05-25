@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloWorldController {
 
-    @RequestMapping("/hellospring")
+    @RequestMapping("/SimplySamPiano")
     public String helloSpring() {
         return "index";
     }
